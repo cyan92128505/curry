@@ -1,6 +1,6 @@
 # Project Data
 *.data.json
-build.md
+build.*
 
 # Logs
 logs
