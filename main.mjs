@@ -4,7 +4,10 @@ import schema from './birth_preferences.schema.json' assert { type: "json" };
 import data from './birth_preferences.data.json' assert { type: "json" };
 
 
-
+/**
+ *  
+ * @returns {String}
+ */
 async function readTemplate() {
     return await fs.readFile(path.join(process.cwd(), 'birth_preferences.template.md'), {
         encoding: 'utf8'
@@ -15,6 +18,7 @@ async function readTemplate() {
 /**
  * 
  * @param {String} markdown 
+ * @returns {String}
  */
 async function applyData(markdown) {
     var _md = markdown;
@@ -28,6 +32,7 @@ async function applyData(markdown) {
 /**
  * 
  * @param {String} markdown 
+ * @returns {String}
  */
 async function generateMarkdown(markdown) {
     try {
