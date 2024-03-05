@@ -2,14 +2,14 @@
 
 ## 基本資料
 
-生產醫院: {{{hospital}}}
-醫生: {{{doctor}}}
-準媽媽姓名: {{{mother.name}}}
-    今年 {{{mother.age}}} 歲，職業是 {{{mother.occupation}}}
-準爸爸姓名: {{{father.name}}}
-    今年 {{{father.age}}} 歲，職業是 {{{father.occupation}}}
-這是我們的第 {{{babyOrder}}} 胎，預產期是 {{{dueDate}}}
-陪產者: {{{companion}}}
+- 生產醫院: {{{hospital}}}
+- 醫生: {{{doctor}}}
+- 準媽媽姓名: {{{mother.name}}}
+    - 今年 {{{mother.age}}} 歲，職業是 {{{mother.occupation}}}
+- 準爸爸姓名: {{{father.name}}}
+    - 今年 {{{father.age}}} 歲，職業是 {{{father.occupation}}}
+- 這是我們的第 {{{babyOrder}}} 胎，預產期是 {{{dueDate}}}
+- 陪產者: {{{companion}}}
 
 ## 分娩前(宮縮期)
 
@@ -19,7 +19,7 @@
 * [X] 自由進食
 * [X] 間歇性或無線胎兒監護
 * [X] 不要靜脈注射(或靜脈滯留)
-* [ ] 盡可能減少內診
+* [X] 盡可能減少內診
 * [X] 自然破水，不人工破水
 * [X] 偏好使用自然止痛方式.
 * [X] 隨著分娩的進行，決定是否使用止痛藥
